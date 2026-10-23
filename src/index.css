@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --navy-dark: #0B2545;
+    --navy-deep: #0F4C81;
+    --blue-primary: #1565D8;
+    --blue-electric: #258BFF;
+    --blue-cyan: #38BDF8;
+    --bg-main: #F3F7FF;
+    --text-main: #132B50;
+    --text-muted: #64748B;
+  }
+
+  html, body, #root {
+    font-family: "Times New Roman", Times, "Liberation Serif", serif !important;
+    background-color: #F3F7FF;
+    color: #132B50;
+    min-height: 100vh;
+  }
+
+  h1, h2, h3, h4, h5, h6, p, span, button, input, textarea, select, table, th, td, div {
+    font-family: "Times New Roman", Times, "Liberation Serif", serif !important;
+  }
+}
+
+/* Custom scrollbar for sleek desktop feel */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #E8F0FE;
+}
+::-webkit-scrollbar-thumb {
+  background: #B4C6E7;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #1565D8;
+}
+
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+    font-family: "Times New Roman", Times, serif !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .page-break {
+    page-break-after: always;
+  }
+}

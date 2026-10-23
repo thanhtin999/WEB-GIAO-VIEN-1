@@ -1,0 +1,6 @@
+{
+  "name": "Văn học 4.0 – Hệ thống quản lý và hỗ trợ dạy học Ngữ văn",
+  "description": "Hệ thống quản lý lớp học, sổ điểm, phân tích năng lực, bài tập kiểm tra, thư viện học liệu, báo cáo thống kê và trợ lý AI Ngữ văn cho giáo viên THCS.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
